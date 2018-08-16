@@ -1,2 +1,2 @@
 # YuJieHou.github.io
-官网
+个人博客
