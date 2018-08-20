@@ -168,7 +168,7 @@
     				<div class="article-entry" itemprop="articleBody">
         				<p>更多精彩内容，请点击下方 more 按钮！！！</p>
 				        <p class="article-more-link">
-				            <a onclick="jianshu();" href="https://www.jianshu.com/u/c90f05f0ab2b">more >></a>
+				            <a onclick="jianshu()" href="https://www.jianshu.com/u/c90f05f0ab2b">more >></a>
 				        </p>
     				</div>
   				</div>
@@ -196,15 +196,15 @@
   	<script src="./fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
   	<script src="./js/main.js" type="text/javascript"></script>
   	<script>
-  		$(function(){ 
-	  		function total_pv(){
+  		window.onload = function(){ 
+		　　function total_pv(){
 				MtaH5.clickStat("total_pv");
 	  		}
 	  		total_pv();
-	  		function jianshu(){
-				MtaH5.clickStat("jianshu");
-	  		}
-		}); 
+		};
+  		function jianshu(){
+			MtaH5.clickStat("jianshu");
+  		};
   	</script>
 </body>
 </html>
