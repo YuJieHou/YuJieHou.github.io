@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+<script>
+  	var _mtac = {"senseHash":0,"autoReport":0};
+  	(function() {
+  		var mta = document.createElement("script");
+  		mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+  		mta.setAttribute("name", "MTAH5");
+  		mta.setAttribute("sid", "500632805");
+  		mta.setAttribute("cid", "500632807");
+  		var s = document.getElementsByTagName("script")[0];
+  		s.parentNode.insertBefore(mta, s);
+  	})();
+</script>
 <head>
 	<meta charset="utf-8">
 	<title>欢迎来到侯宇杰的个人博客</title>
@@ -66,7 +78,7 @@
 								<nav class="header-menu">
 									<ul>
 										<li><a href="https://yujiehou.github.io/">主页</a></li>
-										<li><a href="https://www.jianshu.com/u/c90f05f0ab2b">所有文章</a></li>
+										<li><a onclick="jianshu();" href="https://www.jianshu.com/u/c90f05f0ab2b">所有文章</a></li>
 									</ul>
 								</nav>
 								<nav class="header-nav">
@@ -120,7 +132,7 @@
 						<nav class="header-menu">
 							<ul>
 								<li><a href="./">主页</a></li>
-								<li><a href="https://www.jianshu.com/u/c90f05f0ab2b">所有文章</a></li>
+								<li><a onclick="jianshu();" href="https://www.jianshu.com/u/c90f05f0ab2b">所有文章</a></li>
 					        	<div class="clearfix"></div>
 							</ul>
 						</nav>
@@ -156,7 +168,7 @@
     				<div class="article-entry" itemprop="articleBody">
         				<p>更多精彩内容，请点击下方 more 按钮！！！</p>
 				        <p class="article-more-link">
-				            <a href="https://www.jianshu.com/u/c90f05f0ab2b">more >></a>
+				            <a onclick="jianshu();" href="https://www.jianshu.com/u/c90f05f0ab2b">more >></a>
 				        </p>
     				</div>
   				</div>
@@ -183,5 +195,16 @@
 	<script src="./js/jquery-2.1.1.min.js"></script>
   	<script src="./fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
   	<script src="./js/main.js" type="text/javascript"></script>
+  	<script>
+  		$(function(){ 
+	  		function total_pv(){
+				MtaH5.clickStat("total_pv");
+	  		}
+	  		total_pv();
+	  		function jianshu(){
+				MtaH5.clickStat("jianshu");
+	  		}
+		}); 
+  	</script>
 </body>
 </html>
