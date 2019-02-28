@@ -318,7 +318,7 @@ define([
                        '</div>' +
                      '</div>' +
                      '<div class="modal-footer">' +
-                       '<button href="#" class="btn btn-primary note-image-btn disabled" disabled="disabled">' + lang.image.insert + '</button>' +
+                       '<button class="btn btn-primary note-image-btn disabled" disabled="disabled">' + lang.image.insert + '</button>' +
                      '</div>' +
                    '</div>' +
                  '</div>' +
@@ -353,7 +353,7 @@ define([
                        '</div>' +
                      '</div>' +
                      '<div class="modal-footer">' +
-                       '<button href="#" class="btn btn-primary note-link-btn disabled" disabled="disabled">' + lang.link.insert + '</button>' +
+                       '<button class="btn btn-primary note-link-btn disabled" disabled="disabled">' + lang.link.insert + '</button>' +
                      '</div>' +
                    '</div>' +
                  '</div>' +
@@ -378,7 +378,7 @@ define([
                        '</div>' +
                      '</div>' +
                      '<div class="modal-footer">' +
-                       '<button href="#" class="btn btn-primary note-video-btn disabled" disabled="disabled">' + lang.video.insert + '</button>' +
+                       '<button class="btn btn-primary note-video-btn disabled" disabled="disabled">' + lang.video.insert + '</button>' +
                      '</div>' +
                    '</div>' +
                  '</div>' +

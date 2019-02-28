@@ -70,6 +70,6 @@ visibility:hidden instead of display:none or move the container
 off-screen).
 
 If you find there's a specific thing we can do to Flot to help, feel
-free to submit a bug report. Otherwise, you're welcome to ask for help
+free to submit a bug report. Otherwise, you're  to ask for help
 on the forum/mailing list, but please don't submit a bug report to
 Flot.

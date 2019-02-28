@@ -61,11 +61,11 @@ Attached to non-field element, using events to work with the date values.
         <tr>
           <th>
               Start date
-              <a href="#" class="btn small" id="date-start" data-date-format="yyyy-mm-dd" data-date="2012-02-20">Change</a>
+              <a class="btn small" id="date-start" data-date-format="yyyy-mm-dd" data-date="2012-02-20">Change</a>
           </th>
           <th>
               End date
-              <a href="#" class="btn small" id="date-end" data-date-format="yyyy-mm-dd" data-date="2012-02-25">Change</a>
+              <a class="btn small" id="date-end" data-date-format="yyyy-mm-dd" data-date="2012-02-25">Change</a>
           </th>
         </tr>
     </thead>

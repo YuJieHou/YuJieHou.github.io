@@ -87,7 +87,7 @@ $(function() {
 ));
 ```
 
-You are of course welcome to use other ways to manipulate and/or transverse the DOM, but you will have to adjust the search/filter function (using `.find()` or other similar jQuery methods) to retrieve the newly inserted content and search for the element of interest where you want Fluidbox to work with.
+You are of course  to use other ways to manipulate and/or transverse the DOM, but you will have to adjust the search/filter function (using `.find()` or other similar jQuery methods) to retrieve the newly inserted content and search for the element of interest where you want Fluidbox to work with.
 
 ### Some precautions
 

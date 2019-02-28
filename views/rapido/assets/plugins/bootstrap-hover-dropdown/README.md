@@ -52,16 +52,16 @@ You can set options via data-attributes, too, via `data-delay` and `data-close-o
 
 ```html
 <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="false">
+    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="false">
         Account <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-        <li><a tabindex="-1" href="#">My Account</a></li>
+        <li><a tabindex="-1">My Account</a></li>
         <li class="divider"></li>
-        <li><a tabindex="-1" href="#">Change Email</a></li>
-        <li><a tabindex="-1" href="#">Change Password</a></li>
+        <li><a tabindex="-1">Change Email</a></li>
+        <li><a tabindex="-1">Change Password</a></li>
         <li class="divider"></li>
-        <li><a tabindex="-1" href="#">Logout</a></li>
+        <li><a tabindex="-1">Logout</a></li>
     </ul>
 </li>
 ```
@@ -112,7 +112,7 @@ I'm a slacker and only started keeping track of changes/bug fixes starting in Ma
 
 As this plugin, in its simplicity, is pretty much exactly what I intend it to be, I don't plan to implement any new features. ~~**One exception:** I would like to tweak it so that when you're in a submenu, it doesn't instantly close when you hover outside of it.~~ **Update:** I added this in late April 2013.
 
-If you have ideas for a new feature or something along those lines, you're welcome to share them with me, but I am not likely to implement it/merge your pull without a very compelling reason. You are absolutely free to create a fork and implement the feature yourself for your and others' use.
+If you have ideas for a new feature or something along those lines, you're  to share them with me, but I am not likely to implement it/merge your pull without a very compelling reason. You are absolutely free to create a fork and implement the feature yourself for your and others' use.
 
 This, of course, does not speak for bugs. If you have a bug, please bring it to my attention, and I will try and fix it. Note that 93.7% of people's issues are caused by incorrect markup, so please double check that first.
 

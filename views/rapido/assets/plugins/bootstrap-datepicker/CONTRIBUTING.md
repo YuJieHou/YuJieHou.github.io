@@ -14,7 +14,7 @@ If you've found a bug in bootstrap-datepicker, we want to know about it!  Howeve
 
 ## Pull Requests
 
-Patches welcome!
+Patches !
 
 For all cases, you should have your own fork of the repo.
 

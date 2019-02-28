@@ -6,7 +6,7 @@ Internally value stored as {city: "Moscow", street: "Lenina", building: "15"}
 @extends abstractinput
 @final
 @example
-<a href="#" id="address" data-type="address" data-pk="1">awesome</a>
+<a id="address" data-type="address" data-pk="1">awesome</a>
 <script>
 $(function(){
     $('#address').editable({

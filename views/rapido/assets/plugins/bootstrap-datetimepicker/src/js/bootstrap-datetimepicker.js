@@ -943,11 +943,11 @@
                 '<div class="timepicker-picker">' +
                     '<table class="table-condensed">' +
 						'<tr>' +
-							'<td><a href="#" class="btn" data-action="incrementHours"><span class="' + picker.options.icons.up + '"></span></a></td>' +
+							'<td><a class="btn" data-action="incrementHours"><span class="' + picker.options.icons.up + '"></span></a></td>' +
 							'<td class="separator"></td>' +
-							'<td>' + (picker.options.useMinutes ? '<a href="#" class="btn" data-action="incrementMinutes"><span class="' + picker.options.icons.up + '"></span></a>' : '') + '</td>' +
+							'<td>' + (picker.options.useMinutes ? '<a class="btn" data-action="incrementMinutes"><span class="' + picker.options.icons.up + '"></span></a>' : '') + '</td>' +
                             (picker.options.useSeconds ?
-                                '<td class="separator"></td><td><a href="#" class="btn" data-action="incrementSeconds"><span class="' + picker.options.icons.up + '"></span></a></td>' : '') +
+                                '<td class="separator"></td><td><a class="btn" data-action="incrementSeconds"><span class="' + picker.options.icons.up + '"></span></a></td>' : '') +
 							(picker.options.use24hours ? '' : '<td class="separator"></td>') +
 						'</tr>' +
 						'<tr>' +
@@ -960,11 +960,11 @@
 							'<td><button type="button" class="btn btn-primary" data-action="togglePeriod"></button></td>') +
 						'</tr>' +
 						'<tr>' +
-							'<td><a href="#" class="btn" data-action="decrementHours"><span class="' + picker.options.icons.down + '"></span></a></td>' +
+							'<td><a class="btn" data-action="decrementHours"><span class="' + picker.options.icons.down + '"></span></a></td>' +
 							'<td class="separator"></td>' +
-							'<td>' + (picker.options.useMinutes ? '<a href="#" class="btn" data-action="decrementMinutes"><span class="' + picker.options.icons.down + '"></span></a>' : '') + '</td>' +
+							'<td>' + (picker.options.useMinutes ? '<a class="btn" data-action="decrementMinutes"><span class="' + picker.options.icons.down + '"></span></a>' : '') + '</td>' +
                             (picker.options.useSeconds ?
-                                '<td class="separator"></td><td><a href="#" class="btn" data-action="decrementSeconds"><span class="' + picker.options.icons.down + '"></span></a></td>' : '') +
+                                '<td class="separator"></td><td><a class="btn" data-action="decrementSeconds"><span class="' + picker.options.icons.down + '"></span></a></td>' : '') +
 							(picker.options.use24hours ? '' : '<td class="separator"></td>') +
 						'</tr>' +
                     '</table>' +

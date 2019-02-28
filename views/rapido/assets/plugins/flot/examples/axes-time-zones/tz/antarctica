@@ -15,7 +15,7 @@
 # Unless otherwise specified, we have no time zone information.
 #
 # Except for the French entries,
-# I made up all time zone abbreviations mentioned here; corrections welcome!
+# I made up all time zone abbreviations mentioned here; corrections !
 # FORMAT is `zzz' and GMTOFF is 0 for locations while uninhabited.
 
 # These rules are stolen from the `southamerica' file.

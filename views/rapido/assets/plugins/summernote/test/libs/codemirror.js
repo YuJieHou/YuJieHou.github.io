@@ -27,7 +27,7 @@ window.CodeMirror = (function() {
   var phantom = /PhantomJS/.test(navigator.userAgent);
 
   var ios = /AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent);
-  // This is woefully incomplete. Suggestions for alternative methods welcome.
+  // This is woefully incomplete. Suggestions for alternative methods .
   var mobile = ios || /Android|webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(navigator.userAgent);
   var mac = ios || /Mac/.test(navigator.platform);
   var windows = /win/i.test(navigator.platform);

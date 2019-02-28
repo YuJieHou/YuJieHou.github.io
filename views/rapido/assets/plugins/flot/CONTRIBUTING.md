@@ -1,6 +1,6 @@
 ## Contributing to Flot ##
 
-We welcome all contributions, but following these guidelines results in less
+We  all contributions, but following these guidelines results in less
 work for us, and a faster and better response.
 
 ### Issues ###

@@ -8,7 +8,7 @@ It is mainly replacement of typeahead in Bootstrap 3.
 @since 1.5.0
 @final
 @example
-<a href="#" id="country" data-type="typeaheadjs" data-pk="1" data-url="/post" data-title="Input country"></a>
+<a id="country" data-type="typeaheadjs" data-pk="1" data-url="/post" data-title="Input country"></a>
 <script>
 $(function(){
     $('#country').editable({

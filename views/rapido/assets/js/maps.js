@@ -109,7 +109,7 @@ var Maps = function () {
             lng: -77.028333
         });
         GMaps.on('marker_added', map5, function (marker) {
-            $('#map-ui').append('<tr><td><a href="#" class="pan-to-marker" data-marker-index="' + map5.markers.indexOf(marker) + '">' + marker.title + '</a></td><td><a href="#" class="pan-to-marker" data-marker-lat="' + marker.getPosition().lat() + '" data-marker-lng="' + marker.getPosition().lng() + '">' + marker.title + '</a></td></tr>');
+            $('#map-ui').append('<tr><td><a class="pan-to-marker" data-marker-index="' + map5.markers.indexOf(marker) + '">' + marker.title + '</a></td><td><a class="pan-to-marker" data-marker-lat="' + marker.getPosition().lat() + '" data-marker-lng="' + marker.getPosition().lng() + '">' + marker.title + '</a></td></tr>');
         });
         GMaps.on('click', map5.map, function (event) {
             var index = map5.markers.length;

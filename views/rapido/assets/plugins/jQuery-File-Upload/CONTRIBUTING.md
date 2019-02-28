@@ -27,9 +27,9 @@ If you need help integrating this project into another framework, please post yo
 
 ## Pull requests
 
-[Pull requests](https://help.github.com/articles/using-pull-requests) are welcome and the preferred way of accepting code contributions.
+[Pull requests](https://help.github.com/articles/using-pull-requests) are  and the preferred way of accepting code contributions.
 
-However, if you add a server-side upload handler implementation for another framework, please continue to maintain this version in your own fork without sending a pull request. You are welcome to add a link and possibly documentation about your implementation to the [Wiki](https://github.com/blueimp/jQuery-File-Upload/wiki).
+However, if you add a server-side upload handler implementation for another framework, please continue to maintain this version in your own fork without sending a pull request. You are  to add a link and possibly documentation about your implementation to the [Wiki](https://github.com/blueimp/jQuery-File-Upload/wiki).
 
 Please follow these guidelines before sending a pull request:
 

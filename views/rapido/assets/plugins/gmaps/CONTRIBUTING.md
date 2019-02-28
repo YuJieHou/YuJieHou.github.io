@@ -14,7 +14,7 @@ The documentation must explain in an simple way any argument passed in the metho
 
 ## About new features
 
-The main goal of gmaps.js is to have full support to all features of native Google Maps API, so the primary goal of the contributions to cover the missing features. But other contributions are welcome.
+The main goal of gmaps.js is to have full support to all features of native Google Maps API, so the primary goal of the contributions to cover the missing features. But other contributions are .
 
 If the new feature has a functionality different from strictly work with maps (like animations, custom infoWindows or support for external services), it would be ideal to create an extension with this feature.
 

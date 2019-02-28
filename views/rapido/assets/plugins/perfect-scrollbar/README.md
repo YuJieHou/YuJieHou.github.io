@@ -147,7 +147,7 @@ Contribution
 #### Please read [Contributing](https://github.com/noraesae/perfect-scrollbar/wiki/Contributing) in the wiki before making any contibution.
 
 
-I *really* welcome contributions! Please feel free to fork and issue pull requests when...
+I *really*  contributions! Please feel free to fork and issue pull requests when...
 
 * You have a very nice idea to improve this plugin!
 * You found a bug!
