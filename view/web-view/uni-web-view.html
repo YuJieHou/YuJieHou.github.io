@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title>web-view</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+</head>
+
+<body>
+    <div onclick="Message()">
+        H5 向小程序传参修改页面标题为“测试web-view”
+    </div>
+    <div onclick="goToPage('navigateTo')">
+        H5 向小程序传参跳转到我的页面
+    </div>
+    <div onclick="goToPage('redirectTo')">
+        H5 向小程序传参关闭当前页面，并跳转到我的页面
+    </div>
+</body>
+<script type="text/javascript" src="https://appx/web-view.min.js"></script>
+<script>
+    
+if (navigator.userAgent.toLowerCase().indexOf('dingtalk') > -1) {
+    document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+}
+
+function Message(){
+    console.log('111')
+    // 网页向小程序 postMessage 消息
+    dd.postMessage({
+        name:"测试web-view",
+        type: '0'
+    });
+}
+
+function goToPage(mode){
+    dd.postMessage({
+        name:"/pages/my/index/index",
+        type: '1',
+        mode
+    });
+}
+
+// 接收来自小程序的消息。
+dd.onMessage = function(e) {
+    console.log(e); //{'sendToWebView': '1'}
+}
+
+</script>
+</html>
