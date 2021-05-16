@@ -12,10 +12,13 @@
         H5 向小程序传参修改页面标题为“测试web-view”
     </div>
     <div onclick="goToPage('navigateTo')">
-        H5 向小程序传参跳转到我的页面
+        H5 向小程序传参跳转到我的页面，navigateTo
     </div>
     <div onclick="goToPage('redirectTo')">
-        H5 向小程序传参关闭当前页面，并跳转到我的页面
+        H5 向小程序传参关闭当前页面，跳转到我的页面，redirectTo
+    </div>
+    <div onclick="goToPage('switchTab')">
+        H5 向小程序传参关闭当前页面，跳转到 我的页面 tabBar 页面，并关闭其他所有非 tabBar 页面。switchTab
     </div>
 </body>
 <script type="text/javascript" src="https://appx/web-view.min.js"></script>
