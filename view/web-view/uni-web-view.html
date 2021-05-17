@@ -21,10 +21,10 @@
         H5 向小程序传参关闭当前页面，跳转到 我的页面 tabBar 页面，并关闭其他所有非 tabBar 页面。switchTab
     </div>
 </body>
-<script type="text/javascript" src="https://appx/web-view.min.js"></script>
 <script>
-    
-if (navigator.userAgent.toLowerCase().indexOf('dingtalk') > -1) {
+var ua = navigator.userAgent.toLowerCase()
+console.log(ua)
+if (ua.indexOf('dingtalk') > -1) {
     document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
 }
 
